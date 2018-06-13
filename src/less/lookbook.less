@@ -1,0 +1,132 @@
+@header-color: #333333;
+@white: #ffffff;
+@grey: #f8f8f8;
+@aqua: #00c8c8;
+@text-color: #9c9c9c;
+@top-bar-text: #777777;
+@logo-color: #222222;
+@main-text-color: #575153;
+
+.lookbook {
+    overflow: auto;
+    margin-top: 2em;
+    @media only screen and (min-width: 900px) {
+        margin-top: 6em;
+    }
+    .lbk__list {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 5em;
+        .lbk__content {
+            display: flex;
+            width: auto;
+            background: @grey;
+            overflow: auto;
+            margin: 1em;
+            height: 350px;
+            transition: all 0.5s ease;
+            @media only screen and (min-width: 450px) {
+                height: 450px;
+            }
+            @media only screen and (min-width: 900px) {
+                margin: 0.5em;
+                width: 510px;
+            }
+            @media only screen and (min-width: 1290px) {
+                width: 30%;
+            }
+            @media only screen and (min-width: 1590px) {
+                width: 32%;
+            }
+            .image__position {
+                display: flex;
+                align-items: flex-end;
+                height: 350px;
+                @media only screen and (min-width: 450px) {
+                    height: 450px;
+                }
+            }
+            .lbk__image {
+                display: flex;
+                justify-content: center;
+                height: 300px;
+                width: 140px;
+                margin: 0;
+                @media only screen and (min-width: 450px) {
+                    height: 390px;
+                    width: 220px;
+                }
+                @media only screen and (min-width: 1590px) {
+                    left: 20px;
+                }
+                img { 
+                height: 100%;
+                object-fit: cover;
+                }
+            }
+
+            .lbk__text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                transition: all 0.5s ease;
+                @media only screen and (min-width: 1590px) {
+                    align-items: flex-end;
+                    padding: 2em;
+                }
+                h2 {
+                    color: @main-text-color;
+                    font-weight: 900;
+                    font-size: 28px;
+                    margin-top: 1em;
+                    @media only screen and (min-width: 450px) {
+                        margin-top: 4em;
+                        font-size: 30px;
+                    }
+                    @media only screen and (min-width: 1590px) {
+                        font-size: 48px;
+                        margin-top: 1em;
+                    }
+                }
+                h3 {
+                    color: @main-text-color;
+                    font-size: 22px;
+                    font-weight: 500;
+                    @media only screen and (min-width: 450px) {
+                        font-size: 24px;
+                    }
+                    @media only screen and (min-width: 1590px) {
+                        font-size: 48px;
+                    }
+                }
+                p {
+                    font-size: 13px;
+                    font-family: "Roboto", 'sans-serif';
+                    color: @top-bar-text;
+                    text-align: right;
+                    margin-top: 1em;
+                    padding: 1em;
+                    @media only screen and (min-width: 1590px) {
+                        font-size: 15px;
+                        text-align: right;
+                        padding: 0;
+                    }
+                }
+                .lbk__btn {
+                    width: 130px;
+                    height: 50px;
+                    margin-top: 2em;
+                    @media only screen and (min-width: 450px) {
+                        width: 166px;
+                    }
+                    @media only screen and (min-width: 1590px) {
+                        width: 185px;
+                        height: 60px;
+                    }
+                }
+            }
+        }
+    }
+}

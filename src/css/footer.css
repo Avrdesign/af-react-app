@@ -1,0 +1,111 @@
+.more__info {
+  background: #f8f8f8;
+  margin-top: 2em;
+  overflow: auto;
+}
+.more__info .shop__info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  list-style-type: none;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-top: 3em;
+}
+@media only screen and (min-width: 768px) {
+  .more__info .shop__info {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.more__info .shop__info li {
+  font-size: 15px;
+  color: #575153;
+  list-style-type: none;
+  font-weight: 600;
+  margin-right: 2em;
+}
+.more__info .shop__info li ul {
+  margin-top: 0;
+}
+.more__info .shop__info li ul li {
+  font-weight: 400;
+  font-size: 14px;
+  color: #777777;
+  margin-bottom: 0.8em;
+}
+.more__info .shop__info li ul li:hover {
+  cursor: pointer;
+  color: #00c8c8;
+}
+.more__info .shop__info li ul li:first-child {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #575153;
+  list-style-type: none;
+  font-weight: 600;
+  margin-bottom: 2.5em;
+}
+@media only screen and (max-width: 768px) {
+  .more__info .shop__info li ul li:first-child {
+    margin-top: 3em;
+  }
+}
+.more__info .shop__info .contact__details li:hover {
+  color: #777777;
+  cursor: auto;
+}
+.more__info .shop__info a {
+  text-decoration: none;
+  color: inherit;
+}
+.more__info .shop__info a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+footer {
+  background: #333333;
+  overflow: auto;
+}
+@media only screen and (min-width: 768px) {
+  footer {
+    height: 50px;
+  }
+}
+footer .copy__bar ul {
+  list-style-type: none;
+  color: #777777;
+  font-weight: 600;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  footer .copy__bar ul {
+    text-align: left;
+  }
+}
+footer .copy__bar ul li {
+  padding: 1em 0;
+}
+@media only screen and (min-width: 768px) {
+  footer .copy__bar ul li {
+    padding: 0;
+    margin: 1.15em 1em 0 0;
+  }
+}
+@media only screen and (min-width: 768px) {
+  footer .copy__bar ul :first-child {
+    float: left;
+  }
+  footer .copy__bar ul :first-child strong {
+    float: right;
+  }
+}
+footer .copy__bar ul :nth-child(3) {
+  display: inline-block;
+}
+@media only screen and (min-width: 768px) {
+  footer .copy__bar ul :nth-child(2),
+  footer .copy__bar ul :nth-child(3) {
+    float: right;
+  }
+}

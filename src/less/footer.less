@@ -1,0 +1,117 @@
+@header-color: #333333;
+@white: #ffffff;
+@grey: #f8f8f8;
+@aqua: #00c8c8;
+@text-color: #9c9c9c;
+@top-bar-text: #777777;
+@logo-color: #222222;
+@main-text-color: #575153;
+
+.more__info {
+    background: @grey;
+    margin-top: 2em;
+    overflow: auto;
+    .shop__info {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        list-style-type: none;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-top: 3em;
+        @media only screen and (min-width: 768px) {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        li {
+            font-size: 15px;
+            color: @main-text-color;
+            list-style-type: none;
+            font-weight: 600;
+            margin-right: 2em;
+            ul {
+                margin-top: 0;
+                li {
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: @top-bar-text;
+                    margin-bottom: 0.8em;
+                    &:hover {
+                        cursor: pointer;
+                        color: @aqua;
+                    }
+                    &:first-child{
+                        text-transform: uppercase;
+                        font-size: 15px;
+                        color: @main-text-color;
+                        list-style-type: none;
+                        font-weight: 600;
+                        margin-bottom: 2.5em;
+                        @media only screen and (max-width: 768px) {
+                            margin-top: 3em;
+                        }
+                    }
+                }
+            }
+        }
+        .contact__details {
+            li:hover {
+                color: @top-bar-text;
+                cursor: auto;
+            }
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+            &:hover {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+    }
+ }
+    
+footer {
+    background: @header-color;
+
+    overflow: auto;
+    @media only screen and (min-width: 768px) {
+        height: 50px;
+    }
+    .copy__bar {
+        ul {
+            list-style-type: none;
+            color: @top-bar-text;
+            font-weight: 600;
+            text-align: center;
+            @media only screen and (min-width: 768px) {
+                text-align: left;
+            }
+            li {
+                padding: 1em 0;
+                @media only screen and (min-width: 768px) {
+                    padding: 0;
+                    margin: 1.15em 1em 0 0;
+                }
+            }
+            :first-child {
+                @media only screen and (min-width: 768px) {
+                    float: left;
+                    strong {
+                        float: right;
+                    }
+                }
+            }
+            :nth-child(3) {
+                display: inline-block;
+                
+            }
+            :nth-child(2),
+            :nth-child(3) {
+                @media only screen and (min-width: 768px) {
+                    float: right;
+                }
+            }
+        }
+    }
+}

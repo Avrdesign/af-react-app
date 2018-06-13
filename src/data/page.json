@@ -1,0 +1,209 @@
+[
+      {
+          "menu": [
+              {"name": "mens", "link": "#"},
+              {"name": "womens", "link": "#"},
+              {"name": "the brand", "link": "#"},
+              {"name": "local stores", "link": "#"},
+              {"name": "look book", "link": "#"}
+          ]
+      },
+      {
+          "intro": [
+              {"picture": "main__image", "title": "ave"},
+              {"picture": "main__image2", "title": "nue"}
+          ]
+      },
+      {
+          "filters": [
+              {"name": "popular", "link": "filter_1"},
+              {"name": "new arrivals", "link": "filter_2"},
+              {"name": "best sellers", "link": "filter_3"},
+              {"name": "special offers", "link": "filter_4"},
+              {"name": "coming soon", "link": "filter_5"}
+          ],
+          "goods": [
+              {"name": "MENS BURNT BLACK CASUAL SWEATSHIRT £89.99",
+          "description": "Classic casual sewatshirt for men on the move. 100% cotton.",
+          "price": "89.99",
+          "picture": "item-1.png",
+          "sale": null
+            },
+            {"name": "WOMENS WHITE CASUAL SWEATSHIRT £45.90",
+          "description": "Classic casual t-shirt for women on the move. 100% cotton.",
+          "price": "47.50",
+          "picture": "item-2.png",
+          "sale": null
+            },
+            {"name": "MENS BLACK CASUAL JUMPER £89.99",
+          "description": "Classic casual jumper for men on the move. 100% cotton.",
+          "price": "107",
+          "picture": "item-3.png",
+          "sale": "89.99"
+            },
+            {"name": "MENS BURNT AQUA CASUAL SWEATSHIRT £69.95",
+          "description": "Classic casual sewatshirt for men on the move. 100% cotton.",
+          "price": "69.95",
+          "picture": "item-4.png",
+          "sale": null
+            },
+            {"name": "WOMENS BURNT ORANGE CASUAL SWEATSHIRT £29.95",
+          "description": "Classic casual t-shirt for women on the move. 100% cotton.",
+          "price": "29.95",
+          "picture": "item-5.png",
+          "sale": null
+            },
+            {"name": "WOMENS BLACK CASUAL SWEATSHIRT £34.79",
+          "description": "Classic casual t-shirt for women on the move. 100% cotton.",
+          "price": "37.79",
+          "picture": "item-6.png",
+          "sale": null
+            }
+          ]
+      },
+      {"books": [
+          {
+          "name": "men’s",
+              "description": "Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui. Elementum metus facilisis ut phasellu.",
+              "link": "#",
+              "picture": "lookbook-1.png"
+          },
+          {
+          "name": "women’s",
+              "description": "Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui. Elementum metus facilisis ut phasellu.",
+              "link": "#",
+              "picture": "lookbook-2.png"
+          },
+          {
+              "name": "your",
+              "description": "Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui. Elementum metus facilisis ut phasellu.",
+              "link": "#",
+              "picture": "lookbook-3.png"
+          }
+        ]
+      },
+      {
+
+      "footer_menu_1": [
+               {
+                  "name": "Information",
+                      "link": "#"
+              },
+              {
+                  "name": "The brand",
+                      "link": "#"
+              },
+              {
+                  "name": "Local stores",
+                      "link": "#"
+              },
+              {
+                  "name": "Customer service",
+                      "link": "#"
+              },
+              {
+                  "name": "Privacy & cookies",
+                      "link": "#"
+              },
+              {
+                  "name": "Privacy & cookies",
+                      "link": "#"
+              }
+          ],
+          "footer_menu_2": [
+              {
+                  "name": "Why buy from us",
+                      "link": "#"
+              },
+              {
+                  "name": "Shipping & returns",
+                      "link": "#"
+              },
+              {
+                  "name": "Secure shopping",
+                      "link": "#"
+              },
+              {
+                  "name": "Testimonials",
+                      "link": "#"
+              },
+              {
+                  "name": "Award winning",
+                      "link": "#"
+              },
+              {
+                  "name": "Ethical trading",
+                      "link": "#"
+              }
+          ],
+          "footer_menu_3": [
+              {
+                  "name": "Your account",
+                      "link": "#"
+              },
+              {
+                  "name": "Sign in",
+                      "link": "#"
+              },
+              {
+                  "name": "Register",
+                      "link": "#"
+              },
+              {
+                  "name": "View cart",
+                      "link": "#"
+              },
+              {
+                  "name": "View your lookbook",
+                      "link": "#"
+              },
+              {
+                  "name": "Track an order",
+                      "link": "#"
+              },
+              {
+                  "name": "Update information",
+                      "link": "#"
+              }
+          ],
+          "footer_menu_4": [
+              {
+                  "name": "Lookbook",
+                      "link": "#"
+              },
+              {
+                  "name": "Latest posts",
+                      "link": "#"
+              },
+              {
+                  "name": "Men’s lookbook",
+                      "link": "#"
+              },
+              {
+                  "name": "Women’s lookbook",
+                      "link": "#"
+              },
+              {
+                  "name": "Lookbooks RSS feed",
+                      "link": "#"
+              },
+              {
+                  "name": "Lookbooks RSS feed",
+                      "link": "#"
+              },
+              {
+                  "name": "Delete your lookbook",
+                      "link": "#"
+              }],
+           "contacts_details": [
+               {"name": "contact details",
+              "link": "#"
+               },
+                {
+                "name": "Avenue Fashion",
+                "location": "180-182 Regent Street, London.",
+                "phone": "0123-456-789",
+                "mail": "support@yourwebsite.com"
+            }]
+      }
+] 

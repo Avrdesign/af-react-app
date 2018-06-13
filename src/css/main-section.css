@@ -1,0 +1,108 @@
+.main__section {
+  background: #f8f8f8;
+  position: relative;
+  top: -91px;
+  height: 100vh;
+  overflow: hidden;
+}
+.main__section .main__image {
+  background: url("../images/home/main-section-photo.png") no-repeat;
+  background-size: contain;
+  height: 95.3vh;
+  position: absolute;
+  width: 100%;
+  top: 45px;
+}
+@media only screen and (min-width: 900px) {
+  .main__section .main__image {
+    overflow: hidden;
+    width: 70%;
+    left: 230px;
+  }
+}
+@media only screen and (min-width: 1480px) {
+  .main__section .main__image {
+    left: 330px;
+  }
+}
+@media only screen and (min-width: 1780px) {
+  .main__section .main__image {
+    left: 430px;
+  }
+}
+.main__section .main__image2 {
+  background: url("../images/home/main-section-photo2.png") no-repeat;
+  background-size: contain;
+  height: 95.3vh;
+  position: absolute;
+  width: 100%;
+  top: 45px;
+}
+@media only screen and (min-width: 900px) {
+  .main__section .main__image2 {
+    overflow: hidden;
+    width: 70%;
+    left: 230px;
+  }
+}
+@media only screen and (min-width: 1480px) {
+  .main__section .main__image2 {
+    left: 330px;
+  }
+}
+@media only screen and (min-width: 1780px) {
+  .main__section .main__image2 {
+    left: 430px;
+  }
+}
+.main__section .main__text {
+  position: absolute;
+  top: 300px;
+  width: 100%;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+}
+@media only screen and (min-width: 900px) {
+  .main__section .main__text {
+    top: 0;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    font-size: 330px;
+    font-weight: bold;
+    text-align: left;
+    padding: 0.8em 0;
+    color: #575153;
+    letter-spacing: 0.1em;
+    z-index: 1;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .main__section .main__text {
+    letter-spacing: 0.2em;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .main__section .main__text {
+    margin-left: 0.5em;
+    letter-spacing: 0.5em;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .main__section .main__text {
+    letter-spacing: 0.6em;
+  }
+}
+.fade {
+  animation-name: animationName;
+  animation-duration: 2s;
+}
+@keyframes animationName {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

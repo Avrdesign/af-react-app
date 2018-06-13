@@ -1,0 +1,114 @@
+@header-color: #333333;
+@white: #ffffff;
+@grey: #f8f8f8;
+@aqua: #00c8c8;
+@text-color: #9c9c9c;
+@top-bar-text: #777777;
+@logo-color: #222222;
+@main-text-color: #575153;
+
+header {
+    position: relative;
+    z-index: 100;
+    
+    nav {
+        .logo {
+            font-size: 20px;
+            color: @logo-color;
+            font-weight: 900;
+            margin: -1.55em -13em 0px 0;
+            .logo__thin {
+                display: inline-block;
+                font-size: 20px;
+                margin: 0.8em 0 0 0;
+                font-weight: 400;
+            }
+        }
+        .menu {
+            display: flex; /*none - if hamburger menu active*/
+            list-style-type: none;
+            flex-direction: column;
+            align-items: flex-end;
+            position: absolute;
+            top: 16px;
+            right: 0;
+            line-height: 2em;
+   
+            @media only screen and (min-width: 900px) {
+                position: static;
+                flex-direction: row;
+                list-style-type: none;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-end;
+                margin: -1.55em 0 0 0;
+            }
+            @media only screen and (min-width: 1500px) {
+                margin: -1.55em -11em 0 0;
+            }
+            a {
+                text-decoration: none;
+                color: inherit;
+                &:hover {
+                    text-decoration: none;
+                    color: inherit;
+                }
+            }
+            li {
+                margin-right: 2em;
+                font-weight: bold;
+                color: @logo-color;
+                position: relative;
+                @media only screen and (min-width: 1200px) {
+                    margin-right: 4em;
+                }
+                &:hover {
+                    cursor: pointer;
+                    transition: 0.5s;
+                    color: @aqua;
+                    i {
+                        color: @aqua;
+                        transition: 0.5s;
+                    }
+                    .submenu {
+                        display: flex;
+                    }
+                }
+                input {
+                    display: none;
+                    @media only screen and (min-width: 900px) {
+                        display: inline-block;
+                        border: 1px solid #e7e7e7;
+                        background-color: #f8f8f8;
+                        height: 25px;
+                        margin-top: -0.5em;
+                    }
+                }
+                i {
+                    display: flex;
+                    color: @text-color;
+                }
+            }
+        // submenu
+
+        }
+        .hamburger__menu {
+            float: right;
+            margin: 0.5em 1em 0 0;
+            @media only screen and (min-width: 900px) {
+                display: none;
+            }
+        }
+        .bar {
+            width: 35px;
+            height: 4px;
+            background-color: @logo-color;
+            display: block;
+            margin: 7px auto;
+            transition: all 0.3s ease-in-out;
+            }
+        .hamburger:hover {
+            cursor: pointer;
+        }
+    }
+}

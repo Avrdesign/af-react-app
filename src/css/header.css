@@ -1,0 +1,110 @@
+header {
+  position: relative;
+  z-index: 100;
+}
+header nav .logo {
+  font-size: 20px;
+  color: #222222;
+  font-weight: 900;
+  margin: -1.55em -13em 0px 0;
+}
+header nav .logo .logo__thin {
+  display: inline-block;
+  font-size: 20px;
+  margin: 0.8em 0 0 0;
+  font-weight: 400;
+}
+header nav .menu {
+  display: flex;
+  /*none - if hamburger menu active*/
+  list-style-type: none;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  top: 16px;
+  right: 0;
+  line-height: 2em;
+}
+@media only screen and (min-width: 900px) {
+  header nav .menu {
+    position: static;
+    flex-direction: row;
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin: -1.55em 0 0 0;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  header nav .menu {
+    margin: -1.55em -11em 0 0;
+  }
+}
+header nav .menu a {
+  text-decoration: none;
+  color: inherit;
+}
+header nav .menu a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+header nav .menu li {
+  margin-right: 2em;
+  font-weight: bold;
+  color: #222222;
+  position: relative;
+}
+@media only screen and (min-width: 1200px) {
+  header nav .menu li {
+    margin-right: 4em;
+  }
+}
+header nav .menu li:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  color: #00c8c8;
+}
+header nav .menu li:hover i {
+  color: #00c8c8;
+  transition: 0.5s;
+}
+header nav .menu li:hover .submenu {
+  display: flex;
+}
+header nav .menu li input {
+  display: none;
+}
+@media only screen and (min-width: 900px) {
+  header nav .menu li input {
+    display: inline-block;
+    border: 1px solid #e7e7e7;
+    background-color: #f8f8f8;
+    height: 25px;
+    margin-top: -0.5em;
+  }
+}
+header nav .menu li i {
+  display: flex;
+  color: #9c9c9c;
+}
+header nav .hamburger__menu {
+  float: right;
+  margin: 0.5em 1em 0 0;
+}
+@media only screen and (min-width: 900px) {
+  header nav .hamburger__menu {
+    display: none;
+  }
+}
+header nav .bar {
+  width: 35px;
+  height: 4px;
+  background-color: #222222;
+  display: block;
+  margin: 7px auto;
+  transition: all 0.3s ease-in-out;
+}
+header nav .hamburger:hover {
+  cursor: pointer;
+}
